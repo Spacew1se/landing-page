@@ -77,6 +77,8 @@ button {
     border: 1px solid #3882FC;
     padding: 6px 24px;
     border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: 600;
 }
 
 h3 {
@@ -134,4 +136,29 @@ blockquote, blockquote p {
     font-weight: 600;
     color: #1F2937;
     margin-left: auto;
+}
+
+.call-to-action-container {
+    background-color: #3882FC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 48px 200px;
+    padding: 36px 48px;
+    border-radius: 6px;
+    gap: 36px;
+    color: #F9FAF8;
+}
+
+.lower-signup-button button {
+    border: 1px solid #E5E7EB;
+}
+
+h4, .call-to-action-container p {
+    margin: 0;
+}
+
+.call-to-action h4{
+    font-weight: 700;
+    margin-bottom: 6px;
 }
