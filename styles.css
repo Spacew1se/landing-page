@@ -63,10 +63,14 @@ h1 {
 .intro-left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex: 1;
 }
 
 .intro-right {
+    min-height: 270px;
+    min-width: 200px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
