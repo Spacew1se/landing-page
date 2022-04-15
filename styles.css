@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap');
 
 body {
+    font-family: Roboto, sans-serif;
     height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: Roboto, sans-serif;
+    
 }
 
 .header {
+    height: 72px;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -119,7 +121,7 @@ h3 {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 96px 200px 64px;
+    padding: 96px 270px 64px;
     gap: 12px;
 }
 
@@ -165,6 +167,7 @@ h4, .call-to-action-container p {
 }
 
 .footer {
+    height: 72px;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
